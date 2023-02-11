@@ -1,6 +1,4 @@
-# Автор: Педро Моралес <part.morales@gmail.com>
-#
-# Лицензия: пункт 3 BSD
+
 
 import numpy as np
 

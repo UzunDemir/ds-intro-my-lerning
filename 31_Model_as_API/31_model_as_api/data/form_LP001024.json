@@ -1,0 +1,14 @@
+{
+  "Loan_ID": "LP001024",
+  "Gender": "Male",
+  "Married": "Yes",
+  "Dependents": "2",
+  "Education": "Graduate",
+  "Self_Employed": "No",
+  "ApplicantIncome": 3200,
+  "CoapplicantIncome": 700,
+  "LoanAmount": 70,
+  "Loan_Amount_Term": 360,
+  "Credit_History": 1,
+  "Property_Area": "Urban"
+}

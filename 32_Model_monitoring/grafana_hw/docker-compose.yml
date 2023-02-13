@@ -1,0 +1,30 @@
+version: '3.0'
+
+services:
+  db:
+    image: mariadb:10.8
+    restart: always
+    environment:
+      MARIADB_ROOT_PASSWORD: p76Se7BoVbrn
+      MARIADB_DATABASE: monitoring
+      MARIADB_USER: admin
+      MARIADB_PASSWORD: NoPasaran1842
+    volumes:
+      - ./init:/docker-entrypoint-initdb.d
+  
+  adminer:
+    image: adminer:latest
+    restart: always
+    environment:
+      ADMINER_DEFAULT_DB_DRIVER: mysql
+      ADMINER_DEFAULT_DB_HOST: db
+      ADMINER_DEFAULT_DB_NAME: monitoring
+      ADMINER_DESIGN: flat
+    ports:
+      - '8080:8080'
+
+  grafana:
+    image: grafana/grafana
+    ports:
+      - '3000:3000'
+

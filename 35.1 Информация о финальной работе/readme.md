@@ -19,4 +19,4 @@ ML-инженер: анализирует и готовит данные, зат
 
 [Данные для работы над проектом;](https://drive.google.com/drive/folders/1rA4o6KHH-M2KMvBLHp5DZ5gioF2q7hZw)
 
-Дополнительные данные для тех, кто выбрал специализацию Data Engineer.
+[Дополнительные данные для тех, кто выбрал специализацию Data Engineer.](https://drive.google.com/drive/folders/10LlyVJeMvVKQJaHRWkeo2t3sqklPRLJd)
